@@ -1,5 +1,7 @@
 ---
-import { Icon } from 'astro-icon/components'
+import { Icon } from 'astro-icon/components';
+import { Image } from 'astro:assets';
+import  html  from '../images/html.png';
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -59,6 +61,7 @@ import { Icon } from 'astro-icon/components'
         <div class="nine"></div>
         <div class="ten">
           <h2>LENGUAJES, FRAMEWORKS Y HERRAMIENTAS DE SOFTWARE</h2> <br>
+            <Image src={html} alt="html"/>
             <img class="skills" src="/src/components/img/html.png" width="52px" alt="">
             <img class="skills" src="/src/components/img/css.png" width="60px" alt="">
             <img class="skills" src="/src/components/img/js.png" width="50px" alt="">
@@ -397,12 +400,6 @@ button {
 }
 
 .skills {
-  [data-astro-cid-j7pv25f6] {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: Roboto, serif;
-    color: #fff;
-}
 }
 	</style>
   </body>
