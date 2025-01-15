@@ -35,9 +35,9 @@ import  cmd  from '../images/cmd.png';
             <p class="miFrase"><i><u> "Aquí hay Wifi, Fé, Código y Café" </u></i>☕</p>
             <nav class="nav-links">
               <a href="#home" id="home-link">Home</a>
-              <a href="#five" id="about-link">About</a>
-              <a href="#eight" id="resume-link">Resume</a>
-              <a href="#fiveteen" id="projects-link">Projects</a>
+              <a href="#five" id="about-link">Sobre mi</a>
+              <a href="#eight" id="resume-link">Resumen</a>
+              <a href="#fiveteen" id="projects-link">Proyectos</a>
             </nav>
           </header>
                 
@@ -68,7 +68,7 @@ import  cmd  from '../images/cmd.png';
         </div>
         <div class="seven"></div>
         <div id="eight" class="eight">
-          <div><p>Aqui va info de: Direccion</p></div>
+          <div><p>NO SE QUE COLOCAR AQUÍ... ASI QUE PENSATE BIEN QUE COLOCAR</p></div>
         </div>
         <div class="nine"></div>
         <div class="ten">
@@ -112,7 +112,7 @@ import  cmd  from '../images/cmd.png';
             Futbol</p>
         </div>
         <div class="fourteen">Fourteen</div>
-        <div id="fiveteen" class="fiveteen">Fiveteen</div>
+        <div id="fiveteen" class="fiveteen"><br>PROXIMAMENTE</div>
     </div>
     
 	<style>
@@ -141,6 +141,7 @@ html{
     background-color:cyan;
   }*/
   .cero {
+    
     grid-column: 1 / 11 ;
     grid-row: 1;
     background-color: #000000;
@@ -158,6 +159,7 @@ html{
     backdrop-filter: blur(0.4rem);
     -webkit-backdrop-filter: blur(0.4rem);
     }
+    
   
   .two {
     grid-column: 1 / 11;
@@ -275,6 +277,11 @@ html{
   .fiveteen {
     grid-column: 1 / 11;
     grid-row: 51 /68 ;
+    background-image: url(/src/images/7.gif);
+    background-size: cover;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 350px;
   }
 
   .buttons {
@@ -363,7 +370,6 @@ html{
   }
 
   nav > a{
-    flex: 1;
     order: 3;
     color: white;
     font-size: 18px;  
@@ -432,12 +438,13 @@ button {
 
 	animation-range: entry 10% cover 50%;
 	animation-fill-mode: both;
-  transition-duration: 0.2s
+  transition-duration: 0.2s;
+  
+
 }
 
 .skills:hover {
   transform: scale(1.2);
-  
 }
 	</style>
   </body>
