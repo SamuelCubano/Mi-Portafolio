@@ -28,6 +28,8 @@ import  cmd  from '../images/cmd.png';
 <script src="https://kit.fontawesome.com/cf1fb60fea.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <script>
+alert("Hola, Bienvenido a mi portafolio, aún estoy trabajando en él, pero si deseas contactarme puedes hacerlo a través de mis redes sociales o mi correo electrónico. ¡Gracias por visitar mi sitio web! 🚀");</script>
     <div class="wrapper">
       <div class="cero" id="home"></div>
         <div class="one">
@@ -111,7 +113,11 @@ import  cmd  from '../images/cmd.png';
             Escuchar Música <br>
             Futbol</p>
         </div>
-        <div class="fourteen">Fourteen</div>
+        <div class="fourteen">
+          <h2 class="contact">✨Contáctame 🚀</h2>
+        </div>
+        <div id="fiveteen" class="fiveteen"><br>PROXIMAMENTE</div>
+        <div id="fiveteen" class="fiveteen"><br>PROXIMAMENTE</div>
         <div id="fiveteen" class="fiveteen"><br>PROXIMAMENTE</div>
     </div>
     
@@ -272,12 +278,15 @@ html{
   .fourteen {
     grid-column: 1 / 11;
     grid-row: 49 / 51 ;
+    background-color: #fafafa04;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
   }
 
   .fiveteen {
     grid-column: 1 / 11;
     grid-row: 51 /68 ;
-    background-image: url(/src/images/7.gif);
+    background: linear-gradient( rgba(0, 0, 0, 0.763),rgba(76, 112, 180, 0.103)), url(/src/images/7.gif);
     background-size: cover;
     text-align: center;
     font-size: 100px;
@@ -445,6 +454,16 @@ button {
 
 .skills:hover {
   transform: scale(1.2);
+}
+
+.more {
+  font-size: 20px;
+}
+
+.contact {
+  color: white;
+  padding: 25px 25px 20px 25px ;
+  font-size: 40px;
 }
 	</style>
   </body>
